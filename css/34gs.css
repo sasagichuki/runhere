@@ -1,0 +1,113 @@
+/*
+	Developer	: Christopher Okotch
+	Client	    : Equity
+	project	    : Equity | SWIPE FOR FREE
+
+*/
+
+.container { margin: 0 auto; max-width: 1024px;}
+ body{margin: 0; padding:0}
+
+.row { width: 100%; }
+.row > * {-webkit-transition	: all 400ms ease-out; -moz-transition: all 400ms ease-out;-o-transition	: all 400ms ease-out; -ms-transition : all 400ms ease-out; transition	: all 400ms ease-out;}
+.row:before, .row:after { content: ""; display: table; }
+.row:after { clear: both; }
+.row { *zoom: 1; }
+.col_0 {width: 100%; margin-bottom: 10px;display: block; color: #777; font-family: 'dinlight'; margin-left: 1em;}
+
+
+.col_1, .col_2, .col_3, .col_3c {margin-left :1%; margin-right	: 1%; margin-bottom	: 10px; float: left; display: block;}
+.col_1 { width: 98%; }
+.col_2 { width: 48%; }
+.col_3 { width: 31.3333333333%; }
+.col_3c { width: 64.6666666667%; }
+
+img, object, embed { max-width: 100%; border:none; }
+img { height: auto; border:none;}
+figure img { max-width: 100%; border:none;}
+
+.skip-float { clear: left; }
+
+.video-holder {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	display: block;
+}
+
+.video-holder iframe, .video-holder object, .video-holder embed {
+	position: absolute;	top: 0;	left: 0; width: 100%; height: 100%;
+}
+
+/* header style starts here
+=============================================================================*/
+html.expand {width: 100%;}
+div.header{background: #e6e5e5; height: 30%}
+div.col_3.logo{max-width: 124px}
+div.col_3c.tag-line h2{font-family: 'dinregular'; border-left: 0.10em solid #999999; max-width: 204px; padding-left: 1em; margin-top: 1em}
+
+/* title style starts here
+=============================================================================*/
+div.row.title h2 {color: #164193; font-family: 'dinregular'; line-height: 1em;}
+div.row.desc div{border-bottom: 0.11em solid #ae5214; border-top: 0.11em solid #ae5214;}
+div.row.desc h5 {color: #164193; font-family: 'dinregular'; line-height: 0.5em; font-size: 1.2em;}
+div.row.desc h1 {color: #164193; font-family: 'dinregular'; font-size: 2em; line-height: .75em;}
+div.row.desc p {color: #777; font-family: 'Roboto Condensed', sans-serif; font-size: 1.2em;}
+div.row.desc p span {color: #A84D0F; }
+div.row.desc p  span h5 {color: #A84D0F; }
+div.row.info{width: 95%; margin: 0 auto;}
+
+
+/* cards style starts here
+=============================================================================*/
+div.row.cards{margin-top: 8em; margin-bottom: 2em;}
+div.row.apply{border-bottom: 0.1em solid #cccccc; border-top: 0.1em solid #cccccc;}
+div.row.apply h4 { text-align: center; margin: .5em auto; font-family: 'dinmedium';}
+div.apply span{color: #1C64FF; font-family:'Roboto Condensed',;}
+
+
+
+/* outlets style starts here
+=============================================================================*/
+div.row.outlets ul li {list-style: none; padding: 0; float: left; text-align: center; width: 25%}
+div.row ul { padding: 0; margin: 0;}
+div.row.outlets{color: #A84D0F; font-family: 'Roboto Condensed', sans-serif;}
+
+div.sidebar{margin-top: 20px;}
+div.sidebar input{ width: 100%;}
+div.sidebar h4 {color: #164193; text-align: left ; font-family:'Roboto Condensed', sans-serif; font-size: 1em}
+div.sidebar h4 a{color: #777; text-align: left ; font-family:'Roboto Condensed', sans-serif; font-size: 1.2em}
+
+
+
+/* partners style starts here
+=============================================================================*/
+div.row.partners ul li {float: left; list-style: none; padding: 0;width: 10.5%; margin: 0 1%;}
+div.row.partners h4 {color: #000000; border-bottom: 0.1em solid #CCCCCC; text-align: center; font-family: 'dinregular'; line-height: 2em;}
+div.row.logos{margin-left: 2em;}
+
+/* footer style starts here
+=============================================================================*/
+/*div.footer{background: #eee;}*/
+div.row.footer h4 {color: #164193; text-align: left ; font-family:'Roboto Condensed', sans-serif; font-size: 1em}
+div.col_0.footer p {color: #164193; line-height: 0.89em; font-family: 'Roboto Condensed',; margin-left: 1em;}
+div.sidebar {*width: 30.33%;}
+div.row.title h2 {*margin-top: 1em;}
+div.row.footer p{*line-height: 0}
+* a{text-decoration: none; color: #164193;}
+div.row.outlets h2 {color: #A84D0F; font-family: 'dinregular';}
+div.row.outlets ul li {float: left; text-align: center;}
+div.row ul{padding: 0;}
+div.row.c-t-a.apply a{color: #1c64ff;}
+
+/*Form*/
+
+div.feedback-form{width: 30%;}
+div.feedback-form{color: #164193; text-align: left ; font-family:'Roboto Condensed', sans-serif; font-size: 1em}
+div.feedback-form legend {font-size: 1.5em}
+div.feedback-form button{padding: .5em 1.5em; background: #134f99; border: none; text-transform: uppercase; font-size: 1em; color: #fff; width: 50; margin-top: 10px;}
+form.feedback div.input > input, form.feedback div.input > textarea{width:82%; line-height: 1em; padding:.3em .6em; border: #c0c0c0 solid .1em;}
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder{color: #eee;}
+
